@@ -1,0 +1,12 @@
+ul.tabs-list {
+
+  li.tab-item {
+    list-style: none;
+    display: inline;
+    cursor: pointer;
+
+    &.active {
+      text-decoration: underline;
+    }
+  }
+}

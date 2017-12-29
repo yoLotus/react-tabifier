@@ -1,0 +1,25 @@
+{
+  "name": "react-tabifier",
+  "version": "0.0.1",
+  "description": "Yet another tabs component for ReactJS",
+  "repository": "https://github.com/yoLotus/react-tabifier",
+  "author": "etienne bazin",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean-dist": "rm -rf ./dist",
+    "build": "yarn run clean-dist && NODE_ENV=production `yarn bin`/babel ./src --out-dir ./dist"
+  },
+  "peerDependencies": {
+    "react": "^16.x"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
